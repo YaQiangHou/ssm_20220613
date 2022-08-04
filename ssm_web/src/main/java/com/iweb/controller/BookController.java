@@ -22,6 +22,7 @@ public class BookController {
         List<Book> bookList = bookService.getAll();
         mv.addObject("books",bookList);
         mv.setViewName("main");
+
         return mv;
     }
 }
