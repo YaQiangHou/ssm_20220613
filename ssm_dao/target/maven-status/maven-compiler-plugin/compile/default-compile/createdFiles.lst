@@ -1,0 +1,4 @@
+com\iweb\dao\UserDao.class
+com\iweb\model\Book.class
+com\iweb\dao\BookDao.class
+com\iweb\model\User.class

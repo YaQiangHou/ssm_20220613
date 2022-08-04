@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iweb.dao.UserDao">
+
+    <!--User findbyLoginnameAndPassword(Map<String,Object> map);-->
+    <select id="findbyLoginnameAndPassword" parameterType="java.util.Map" resultType="com.iweb.model.User">
+        select * from ssm_user where loginname = #{loginname} and password = #{password}
+    </select>
+</mapper>
