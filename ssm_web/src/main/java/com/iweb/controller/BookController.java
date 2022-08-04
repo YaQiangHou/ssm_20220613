@@ -27,6 +27,7 @@ public class BookController {
         System.out.println("123");
         System.out.println("789");
 
+        System.out.println("push commit");
         return mv;
     }
 }
