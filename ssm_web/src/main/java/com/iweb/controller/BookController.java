@@ -24,10 +24,7 @@ public class BookController {
         mv.setViewName("main");
 
 
-
-
-
-
+        System.out.println("789");
 
         return mv;
     }
